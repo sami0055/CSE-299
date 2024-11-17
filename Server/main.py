@@ -29,4 +29,6 @@ def send_message(message: Message):
 
     
     response=chat(message.msg,vault_tensor_embeddings,vault_content)
+    print('000000000000000000')
+    print(response)
     return {"message": response}
